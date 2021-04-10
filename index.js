@@ -7,4 +7,4 @@ Function writeCards(cards, event){
   }
 } 
 
-writeCards(["Ada", "Brendan", "Ali"],"birthday");
+writeCards(['Lisa', 'Kaitlin', 'Jan' ], 'surprise');
