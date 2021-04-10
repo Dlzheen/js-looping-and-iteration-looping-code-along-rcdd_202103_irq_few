@@ -1,5 +1,9 @@
 // Code your solutions in this file
-const names= 
-Function writeCards (["Ada", "Brendan", "Ali"],"birthday"){
-  for (let i=0, i<)
+const names=["Ada", "Brendan", "Ali"];
+const event = "birthday";
+Function writeCards (names,event){
+  for (let i=0, i<names.length ,i++)
+  {
+    return "tha"
+  }
 } 
