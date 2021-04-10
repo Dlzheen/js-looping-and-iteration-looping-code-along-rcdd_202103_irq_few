@@ -22,4 +22,4 @@ function countDown(number){
    }
 
 }
-countDown(10);
+countDown(4);
