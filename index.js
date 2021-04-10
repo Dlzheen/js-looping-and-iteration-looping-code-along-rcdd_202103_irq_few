@@ -5,7 +5,7 @@ function writeCards(cards, event){
   let eventName ;
   for (let i=0; i<cards.length; i++)
   {
-    eventName=`Thank you, ${cards[i]}, for the wonderful${event}gift!`;
+    eventName=`Thank you, ${cards[i]}, for the wonderful ${event} gift!`;
     finalEvent.push(eventName);
   }
   return finalEvent;
