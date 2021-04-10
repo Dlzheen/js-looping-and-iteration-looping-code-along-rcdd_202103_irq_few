@@ -2,10 +2,11 @@
 
 Function writeCards(cards, event){
   let finalEvent = [];
+  let eventName ;
   for (let i=0; i<cards.length; i++)
   {
-    
-    finalEvent[i]="Thank you,"+cards[i]+", for the "+event+ "gift";
+    eventName="Thank you,"+cards[i]+", for the "+event+ "gift";
+    finalEvent=eventName;
   }
   return finalEvent;
 } 
