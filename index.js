@@ -13,4 +13,13 @@ function writeCards(cards, event){
 
 writeCards(["Lisa", "Kaitlin", "Jan"], "surprise");
 
+function countDown(number){
+   
+   while(number>0)
+   {
+     console.log(number);
+     number--;
+   }
 
+}
+countDown(10);
