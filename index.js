@@ -1,9 +1,10 @@
 // Code your solutions in this file
-const cards = ["Ada", "Brendan", "Ali"];
-const event = "birthday";
+
 Function writeCards(cards, event){
-  for (let i=0, i<3 ,i++)
+  for (let i=0; i<cards.length; i++)
   {
-    return "Thank you,"+, for the ${event} gift`;
+    return "Thank you,"+cards[i]+", for the "+event+ "gift";
   }
 } 
+
+writeCards(["Ada", "Brendan", "Ali"],"birthday");
