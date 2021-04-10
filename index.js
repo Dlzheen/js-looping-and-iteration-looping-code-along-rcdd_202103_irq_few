@@ -13,3 +13,4 @@ function writeCards(cards, event){
 
 writeCards(["Lisa", "Kaitlin", "Jan"], "surprise");
 
+
