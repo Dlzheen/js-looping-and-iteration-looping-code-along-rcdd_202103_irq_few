@@ -15,7 +15,7 @@ writeCards(["Lisa", "Kaitlin", "Jan"], "surprise");
 
 function countDown(number){
    
-   while(number>0)
+   while(number>=0)
    {
      console.log(number);
      number--;
