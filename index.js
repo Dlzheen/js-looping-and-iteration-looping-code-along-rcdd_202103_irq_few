@@ -1,8 +1,9 @@
 // Code your solutions in this file
-
-Function writeCards(["Ada", "Brendan", "Ali"],"birthday"){
-  for (let i=0, i<names.length ,i++)
+const cards = ["Ada", "Brendan", "Ali"];
+const event = "birthday";
+Function writeCards(cards, event){
+  for (let i=0, i<3 ,i++)
   {
-    return `Thank you,${names[i]}, for the ${event} gift`;
+    return "Thank you,"+, for the ${event} gift`;
   }
 } 
